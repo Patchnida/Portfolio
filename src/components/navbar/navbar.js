@@ -1,10 +1,10 @@
 'use client';
 
 import Link from "next/link";
-import { usePathname } from "next/navigation"; // Use this to get the current path
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const currentPath = usePathname(); // Get the current path dynamically
+  const currentPath = usePathname();
 
   return (
     <div
