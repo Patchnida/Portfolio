@@ -1,39 +1,58 @@
-'use client'
+'use client';
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"; // Use this to get the current path
 
 const Navbar = () => {
-  const router = useRouter();
-
-  const handleRefresh = (e) => {
-    e.preventDefault();
-    router.refresh();
-    router.push('/');
-  };
+  const currentPath = usePathname(); // Get the current path dynamically
 
   return (
-    <div className="flex justify-between items-center px-5 py-3 h-16 shadow-b-md bg-white sticky top-0 z-50 border-b-2">
-      <Link href="/" onClick={handleRefresh} className="text-3xl text-slate-800 font-bold">
+    <div
+      className={`flex justify-between items-center px-5 py-3 h-16 shadow-b-md sticky top-0 z-50 border-b-2 `}
+    >
+      <Link
+        href="/"
+        className="text-3xl font-bold hover:opacity-90"
+      >
         PATCHNIDA
       </Link>
-      
+
       <div className="flex">
-        <Link href="/" className="flex justify-center items-center w-28 h-12 hover:bg-slate-800 hover:text-white hover:font-medium tracking-[1px]">
-            HOME
+        <Link
+          href="/"
+          className={`flex justify-center items-center w-32 h-12 tracking-[1px] ${
+            currentPath === "/" ? "bg-slate-800 text-white font-medium" : "hover:bg-gray-200 hover:font-medium"
+          }`}
+        >
+          HOME
         </Link>
-        <Link href="/about" className="flex justify-center items-center w-28 h-12 hover:bg-slate-800 hover:text-white hover:font-medium tracking-[1px]">
-            ABOUT
+        <Link
+          href="/about"
+          className={`flex justify-center items-center w-32 h-12 tracking-[1px] ${
+            currentPath === "/about" ? "bg-slate-800 text-white font-medium" : "hover:bg-gray-200 hover:font-medium"
+          }`}
+        >
+          ABOUT
         </Link>
-        <Link href="/projects" className="flex justify-center items-center w-28 h-12 hover:bg-slate-800 hover:text-white hover:font-medium tracking-[1px]">
-            PROJECTS
+        <Link
+          href="/projects"
+          className={`flex justify-center items-center w-32 h-12 tracking-[1px] ${
+            currentPath === "/projects" ? "bg-slate-800 text-white font-medium" : "hover:bg-gray-200 hover:font-medium"
+          }`}
+        >
+          PROJECTS
         </Link>
-        <Link href="/contact" className="flex justify-center items-center w-28 h-12 hover:bg-slate-800 hover:text-white hover:font-medium tracking-[1px]">
-            CONTACT
+        <Link
+          href="/contact"
+          className={`flex justify-center items-center w-32 h-12 tracking-[1px] ${
+            currentPath === "/contact" ? "bg-slate-800 text-white font-medium" : "hover:bg-gray-200 hover:font-medium"
+          }`}
+        >
+          CONTACT
         </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;
