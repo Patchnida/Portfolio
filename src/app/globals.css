@@ -6,5 +6,10 @@
   --font-opensans: 'Open Sans', sans-serif;
   --navbar-height: 80px;
   --footer-height: 90px;
+  --text-color-dark-gray: #333333; /* กำหนดสีเทาเข้ม */
 }
 
+body {
+  color: var(--text-color-dark-gray);
+  font-family: var(--font-opensans);
+}
