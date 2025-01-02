@@ -43,6 +43,14 @@ const Navbar = () => {
           PROJECTS
         </Link>
         <Link
+          href="/activities"
+          className={`flex justify-center items-center w-32 h-12 tracking-[1px] ${
+            currentPath === "/projects" ? "bg-slate-800 text-white font-medium" : "hover:bg-gray-200 hover:font-medium"
+          }`}
+        >
+          ACTIVITIES
+        </Link>
+        <Link
           href="/contact"
           className={`flex justify-center items-center w-32 h-12 tracking-[1px] ${
             currentPath === "/contact" ? "bg-slate-800 text-white font-medium" : "hover:bg-gray-200 hover:font-medium"
