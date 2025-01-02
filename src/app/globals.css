@@ -4,16 +4,7 @@
 
 :root {
   --font-opensans: 'Open Sans', sans-serif;
+  --navbar-height: 80px;
+  --footer-height: 90px;
 }
 
-/* .font-light {
-  font-weight: 300;
-}
-
-.font-medium {
-  font-weight: 400;
-}
-
-.font-bold {
-  font-weight: 700;
-} */

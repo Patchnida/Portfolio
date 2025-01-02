@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center px-5 py-3 h-16 shadow-b-md sticky top-0 z-50 border-b-2 `}
+      className={`flex justify-between items-center px-5 py-3 h-16 shadow-b-md sticky top-0 z-50 border-b-2 bg-white`}
     >
       <Link
         href="/"
