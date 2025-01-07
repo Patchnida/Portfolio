@@ -3,9 +3,13 @@ import SkillInfo from "@/components/skillInfo/skillInfo";
 
 const About = () => {
   return (
-    <div className="flex flex-col w-full py-5 px-20">
-        <PersonalInfo />
-        <SkillInfo />
+    <div className="flex flex-col w-full py-5 px-5 gap-10">
+        <div>
+          <PersonalInfo />
+        </div>
+        <div>
+          <SkillInfo />
+        </div>
     </div>
   );
 };
