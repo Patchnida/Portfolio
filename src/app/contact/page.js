@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Contact = () => {
   return (
     <div className="flex w-full p-5">
@@ -28,8 +30,8 @@ const Contact = () => {
       </div>
 
       <div className="flex justify-center items-center w-6/12 ">
-        <div className="flex justify-center items-center h-full w-10/12 bg-gray-200">
-          part 2
+        <div className="flex justify-center items-center h-full w-10/12">
+          <Image src="/contact_image.png" alt="" width={420} height={300}/>
         </div>
       </div>
     </div>

@@ -24,9 +24,9 @@ export default function Home() {
             This portfolio website includes my basic information, skills, projects, and contact details. If you're interested, please feel free to contact me.
           </p>
         </div>
-        <div className="flex justify-center items-center w-5/12 bg-gray-200">
+        <div className="flex justify-center items-center w-5/12">
 
-          part 2
+          <Image src="/home_image.png" alt="" width={420} height={300}/>
         </div>
       </main>
   );

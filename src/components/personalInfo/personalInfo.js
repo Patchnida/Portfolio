@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const PersonalInfo = () => {
   return (
     <div 
@@ -5,8 +7,8 @@ const PersonalInfo = () => {
       style={{ height: "calc(100vh - var(--navbar-height) - var(--footer-height))" }}
     >
         <div className="flex justify-center w-5/12 ">
-        <div className="flex justify-center items-center bg-gray-200 w-full h-full">
-            part 2
+        <div className="flex justify-center items-center w-full h-full">
+            <Image src="/info_image.jpg" alt="" width={390} height={300}/>
         </div>
         </div>
 
