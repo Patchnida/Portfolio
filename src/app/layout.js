@@ -1,7 +1,7 @@
 import { Open_Sans } from "next/font/google"; 
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
-import Footer from "@/components/footer.js/footer";
+import Footer from "@/components/footer/footer";
 
 const openSans = Open_Sans({
   variable: "--font-opensans",
