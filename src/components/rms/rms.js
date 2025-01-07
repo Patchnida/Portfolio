@@ -29,17 +29,17 @@ const RMS = () => {
           
           <div
             className="relative w-full h-2/3 cursor-pointer"
-            onClick={() => openModal("/simpleBlog/category.png")}
+            onClick={() => openModal("/rms/employee.png")}
           >
             <Image
-              src="/simpleBlog/category.png"
+              src="/rms/employee.png"
               alt="Main Preview"
               layout="fill"
               objectFit="contain"
               className="rounded-md"
             />
             <p className="absolute bottom-2 left-2 text-white text-sm bg-black bg-opacity-50 px-2 py-1 rounded">
-              Home page
+              Employee page
             </p>
           </div>
 
@@ -47,47 +47,47 @@ const RMS = () => {
           <div className="flex w-full h-1/3 gap-2">
             <div
               className="relative w-1/3 h-full cursor-pointer"
-              onClick={() => openModal("/simpleBlog/login.png")}
+              onClick={() => openModal("/rms/menu.png")}
             >
               <Image
-                src="/simpleBlog/login.png"
+                src="/rms/menu.png"
                 alt="Thumbnail 1"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
               />
               <p className="absolute bottom-2 left-2 text-white text-sm bg-black bg-opacity-50 px-2 py-1 rounded">
-                Login Page
+                Menu Page
               </p>
             </div>
             <div
               className="relative w-1/3 h-full cursor-pointer"
-              onClick={() => openModal("/simpleBlog/profile.png")}
+              onClick={() => openModal("/rms/stock.png")}
             >
               <Image
-                src="/simpleBlog/profile.png"
+                src="/rms/stock.png"
                 alt="Thumbnail 2"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
               />
               <p className="absolute bottom-2 left-2 text-white text-sm bg-black bg-opacity-50 px-2 py-1 rounded">
-                Profile Page
+                Stock Page
               </p>
             </div>
             <div
               className="relative w-1/3 h-full cursor-pointer"
-              onClick={() => openModal("/simpleBlog/blog.png")}
+              onClick={() => openModal("/rms/update_stock.png")}
             >
               <Image
-                src="/simpleBlog/blog.png"
+                src="/rms/update_stock.png"
                 alt="Thumbnail 3"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
               />
               <p className="absolute bottom-2 left-2 text-white text-sm bg-black bg-opacity-50 px-2 py-1 rounded">
-                Blog Page
+                Update Stock Page
               </p>
             </div>
           </div>
