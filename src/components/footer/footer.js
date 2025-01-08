@@ -8,11 +8,14 @@ const Footer = () => {
             <Link href="tel:0638102695">
                 <Image src="/phone.png" alt="" width={30} height={30}/>
             </Link>
-            <Link target="_blank" href="https://line.me/ti/p/bEvaBkdp2e" passHref>
-                <Image src="/line.png" alt="" width={30} height={30}/>
-            </Link>
             <Link href="mailto:patchnida.hemw@gmail.com" passHref>
                 <Image src="/email.png" alt="" width={30} height={30}/>
+            </Link>
+            <Link target="_blank" href="https://www.linkedin.com/in/patchnida-hemwannanukul-38b71a345/?trk=opento_sprofile_details" passHref>
+                <Image src="/linkedin.png" alt="" width={30} height={30}/>
+            </Link>
+            <Link target="_blank" href="https://github.com/Patchnida" passHref>
+                <Image src="/github.png" alt="" width={30} height={30}/>
             </Link>
         </div>
     </div>
