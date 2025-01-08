@@ -1,12 +1,12 @@
 const SkillInfo = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full gap-5">
+    <div className="flex flex-col md:flex-row md:px-10 w-full gap-5">
       <div className="flex flex-col w-full md:w-6/12 pr-0 md:pr-5 md:border-b-0 md:border-r-2">
         {/* Section Title */}
         <p className="text-xl md:text-2xl font-bold mb-4">Interests</p>
 
         {/* Skills List */}
-        <ul className="list-disc text-lg md:text-xl pl-5">
+        <ul className="list-disc text-lg md:text-xl px-5">
           <li className="mb-5">
             <p className="font-semibold mb-1">Web Development</p>
             <p className="text-base md:text-lg">
@@ -33,7 +33,7 @@ const SkillInfo = () => {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col w-full md:w-6/12 gap-10">
+      <div className="flex flex-col w-full md:w-6/12 md:pl-5 gap-10">
           <div>
               {/* Section Title */}
                <p className="text-xl md:text-2xl font-bold mb-4">Language</p>
