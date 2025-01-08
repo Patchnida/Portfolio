@@ -6,7 +6,7 @@ import SimpleBlog from "@/components/simpleBlog/simpleBlog";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col w-full py-5 px-20">
+    <div className="flex flex-col w-full py-5 md:px-20 gap-10">
       <AngelACS />
       <Installment />
       <RMS />

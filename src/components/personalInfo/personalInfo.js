@@ -74,7 +74,7 @@ const PersonalInfo = () => {
                   </tr>
                   <tr>
                     <td className="font-semibold w-48 align-top py-2">Mail</td>
-                    <td className="align-top py-2">patchnida2547@gmail.com</td>
+                    <td className="align-top py-2">patchnida.hemw@gmail.com</td>
                   </tr>
                 </tbody>
               </table>
