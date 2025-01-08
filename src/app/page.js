@@ -9,7 +9,7 @@ export default function Home() {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col justify-center w-full md:w-7/12 p-5 md:p-24 gap-5 order-2 md:order-1">
+      <div className="flex flex-col justify-center w-full md:w-7/12 md:px-24 gap-5 order-2 md:order-1">
         <p className="text-lg md:text-2xl font-medium">Hello, It’s me</p>
 
         <div className="flex flex-col gap-3 py-2">
@@ -18,10 +18,10 @@ export default function Home() {
         </div>
 
         <p className="text-base md:text-xl font-light">
-          I am passionate about <b className="font-semibold">Front End Development</b> and am constantly learning more about it.
+          I am passionate about <b className="font-semibold">Front End Development</b> with a growing interest in <b className="font-semibold"> Full Stack Development </b> and <b className="font-semibold"> UX/UI Design </b>, and I am continually learning to become an even better version of myself!
         </p>
         <p className="text-base md:text-xl font-light">
-          This portfolio website includes my basic information, skills, projects, and contact details. If you're interested, please feel free to contact me.
+        This portfolio showcases my basic information, skills, projects, and contact details. If you're interested, please feel free to contact me.
         </p>
       </div>
     </main>

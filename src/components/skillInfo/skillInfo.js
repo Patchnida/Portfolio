@@ -16,19 +16,19 @@ const SkillInfo = () => {
           <li className="mb-5">
             <p className="font-semibold mb-1">UI/UX Design</p>
             <p className="text-base md:text-lg">
-            Fascinated by designing intuitive and engaging user interfaces, applying user-centered design principles to create functional and visually appealing websites.
+              Passionate about designing intuitive and engaging user interfaces, leveraging user-centered design principles to deliver functional and visually appealing solutions.
             </p>
           </li>
           <li className="mb-5">
             <p className="font-semibold mb-1">Problem Solving</p>
             <p className="text-base md:text-lg">
-            Thrive on the challenges of debugging, optimizing performance, and finding creative solutions to complex problems in web development.
+              I am passionate about facing new challenges. While challenges can be difficult, each one is an opportunity for growth.
             </p>
           </li>
           <li className="mb-2">
             <p className="font-semibold">Collaborative Projects</p>
             <p className="text-base md:text-lg">
-            Enjoy working in team environments, sharing ideas, and participating in hackathons and open-source projects to grow and improve my skills.
+              Enjoys collaborating in a team environment and is passionate about communication and idea exchange to achieve goals together.
             </p>
           </li>
         </ul>
@@ -63,19 +63,19 @@ const SkillInfo = () => {
                   <li className="mb-5">
                   <p className="font-semibold mb-1">Frameworks and Libraries</p>
                   <p className="text-base md:text-lg">
-                      Experienced with React, Next.js, Node.js and Express
+                      Experienced with React, Next.js, Node.js, Express.js and TailwindCSS.
                   </p>
                   </li>
                   <li className="mb-5">
                   <p className="font-semibold mb-1">Database Management</p>
                   <p className="text-base md:text-lg">
-                      Knowledgeable in SQL, Firebase and MongoDB
+                      Knowledgeable in MySQL, Firebase and MongoDB.
                   </p>
                   </li>
                   <li className="mb-2">
-                  <p className="font-semibold">Version Control</p>
+                  <p className="font-semibold">Tools</p>
                   <p className="text-base md:text-lg">
-                      Experienced with Git and GitHub for version control and collaboration.
+                      Experienced with Git, Figma, VSCode and Postman.
                   </p>
                   </li>
               </ul>
