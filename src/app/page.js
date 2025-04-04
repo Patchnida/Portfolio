@@ -18,7 +18,7 @@ export default function Home() {
         </div>
 
         <p className="text-base md:text-xl font-light">
-          I am passionate about <b className="font-semibold">Front End Development</b> with a growing interest in <b className="font-semibold"> Full Stack Development </b> and <b className="font-semibold"> UX/UI Design </b>, and I am continually learning to become an even better version of myself!
+          I am passionate about <b className="font-semibold">Front End Developer</b> with a growing interest in <b className="font-semibold"> Full Stack Developer </b> and <b className="font-semibold"> UX/UI Design </b>, and I am continually learning to become an even better version of myself!
         </p>
         <p className="text-base md:text-xl font-light">
         This portfolio showcases my basic information, skills, projects, and contact details. If you're interested, please feel free to contact me.
